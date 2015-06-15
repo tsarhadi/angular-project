@@ -1,0 +1,237 @@
+{ "list": [
+	{
+	"id" : "1", 
+	"name" : "Abriola Apricot", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Apricot", 
+	"category" : "Low Heels", 
+	"photos" : ["resources/images/Abriola/abriola-apricot_1.jpg", "resources/images/Abriola/abriola-apricot_2.jpg"] 
+	}, 
+	{
+	"id" : "2", 
+	"name" : "Abriola Black", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Low Heels", 
+	"photos" : ["resources/images/Abriola/abriola-black_1.jpg", "resources/images/Abriola/abriola-black_2.jpg"] 
+	}, 
+	{
+	"id" : "3", 
+	"name" : "Agate", 
+	"price" : "199.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Agate/0058_AGATE.jpg", "resources/images/Agate/0057_AGATE.jpg"] 
+	}, 
+	{
+	"id" : "4", 
+	"name" : "Alexandra", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Alexandra/IMG_3435.jpg", "resources/images/Alexandra/IMG_3436.jpg", "resources/images/Alexandra/IMG_3437.jpg"] 
+	}, 
+	{
+	"id" : "5", 
+	"name" : "Annabelle", 
+	"price" : "169.0", 
+	"description" : "Very Comfy", 
+	"color" : "Silver", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Annabelle/IMG_3723.jpg", "resources/images/Annabelle/IMG_3724.jpg", "resources/images/Annabelle/IMG_37261.jpg"] 
+	}, 
+	{
+	"id" : "6", 
+	"name" : "Annetta", 
+	"price" : "159.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Annetta/IMG_4323.jpg", "resources/images/Annetta/IMG_4324.jpg", "resources/images/Annetta/IMG_4325.jpg"] 
+	}, 
+	{
+	"id" : "7", 
+	"name" : "Annina", 
+	"price" : "199.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Annina/IMG_3628.jpg", "resources/images/Annina/IMG_3629.jpg", "resources/images/Annina/IMG_3631.jpg"] 
+	}, 
+	{
+	"id" : "8", 
+	"name" : "Audrey", 
+	"price" : "189.0", 
+	"description" : "Very Comfy", 
+	"color" : "Red", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Audrey/IMG_3793.jpg", "resources/images/Audrey/IMG_3795.jpg", "resources/images/Audrey/IMG_3796.jpg"] 
+	}, 
+	{
+	"id" : "9", 
+	"name" : "Ava", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Blue", 
+	"category" : "Low Heels", 
+	"photos" : ["resources/images/Ava/IMG_4061.jpg", "resources/images/Ava/IMG_4062.jpg", "resources/images/Ava/IMG_4064.jpg"] 
+	}, 
+	{
+	"id" : "10", 
+	"name" : "Bella", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Bella_black/IMG_3784.jpg", "resources/images/Bella_black/IMG_3785.jpg", "resources/images/Bella_black/IMG_37861.jpg"] 
+	}, 
+	{
+	"id" : "11", 
+	"name" : "Bella", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Grey", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Bella_grey/IMG_3778.jpg", "resources/images/Bella_grey/IMG_3779.jpg", "resources/images/Bella_grey/IMG_3782.jpg"] 
+	}, 
+	{
+	"id" : "12", 
+	"name" : "Berenica", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Berenice/IMG_3969.jpg", "resources/images/Berenice/IMG_3970.jpg", "resources/images/Berenice/IMG_39711.jpg"] 
+	}, 
+	{
+	"id" : "13", 
+	"name" : "Bianca", 
+	"price" : "179.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Low Heels", 
+	"photos" : ["resources/images/Bianca/IMG_4335.jpg", "resources/images/Bianca/IMG_4336.jpg", "resources/images/Bianca/IMG_4337.jpg"] 
+	}, 
+	{
+	"id" : "14", 
+	"name" : "Billie", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Billie/IMG_3401.jpg", "resources/images/Billie/IMG_3402.jpg", "resources/images/Billie/IMG_3403.jpg"] 
+	}, 
+	{
+	"id" : "15", 
+	"name" : "Billie Chilli", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Billie_chilli/IMG_3405.jpg", "resources/images/Billie_chilli/IMG_3406.jpg", "resources/images/Billie_chilli/IMG_3407.jpg"] 
+	}, 
+	{
+	"id" : "16", 
+	"name" : "Billie Red", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Billie_red/IMG_3409.jpg", "resources/images/Billie_red/IMG_3411.jpg", "resources/images/Billie_red/IMG_3412.jpg"] 
+	}, 
+	{
+	"id" : "17", 
+	"name" : "Bina", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "Red", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/bina/IMG_4284.jpg", "resources/images/bina/IMG_4286.jpg", "resources/images/bina/IMG_4287.jpg"] 
+	}, 
+	{
+	"id" : "18", 
+	"name" : "Clara", 
+	"price" : "159.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Low Heels", 
+	"photos" : ["resources/images/clara/0015_CLARA.jpg", "resources/images/clara/0014_CLARA.jpg"] 
+	}, 
+	{
+	"id" : "19", 
+	"name" : "Dornis", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "Grey", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Dornis_grey/IMG_1.jpg", "resources/images/Dornis_grey/IMG_2.jpg"] 
+	}, 
+	{
+	"id" : "20", 
+	"name" : "Ebony", 
+	"price" : "189.0", 
+	"description" : "Very Comfy", 
+	"color" : "Red", 
+	"category" : "High Heels", 
+	"photos" : ["resources/images/Ebony/IMG_3850.jpg", "resources/images/Ebony/IMG_3851.jpg", "resources/images/Ebony/IMG_3852.jpg"] 
+	}, 
+	{
+	"id" : "21", 
+	"name" : "Elma", 
+	"price" : "159.0", 
+	"description" : "Very Comfy", 
+	"color" : "White", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Elma/0018_ELMA.jpg", "resources/images/Elma/0017_ELMA.jpg"] 
+	}, 
+	{
+	"id" : "22", 
+	"name" : "Fina", 
+	"price" : "159.0", 
+	"description" : "Very Comfy", 
+	"color" : "Silver", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Fina/IMG_1.jpg", "resources/images/Fina/IMG_2.jpg"] 
+	}, 
+	{
+	"id" : "23", 
+	"name" : "Iris", 
+	"price" : "219.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Boots", 
+	"photos" : ["resources/images/Iris/0041_Iris.jpg", "resources/images/Iris/0040_Iris.jpg"] 
+	}, 
+	{
+	"id" : "24", 
+	"name" : "Media", 
+	"price" : "239.0", 
+	"description" : "Very Comfy", 
+	"color" : "Brown", 
+	"category" : "Boots", 
+	"photos" : ["resources/images/Media/IMG_1.jpg", "resources/images/Media/IMG_2.jpg"] 
+	}, 
+	{
+	"id" : "25", 
+	"name" : "Melina", 
+	"price" : "269.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Boots", 
+	"photos" : ["resources/images/Melina/0051_Melina.jpg", "resources/images/Melina/0050_Melina.jpg"] 
+	}, 
+	{
+	"id" : "26", 
+	"name" : "Sonia", 
+	"price" : "149.0", 
+	"description" : "Very Comfy", 
+	"color" : "Black", 
+	"category" : "Flat", 
+	"photos" : ["resources/images/Sonia/IMG_3389.jpg", "resources/images/Sonia/IMG_33901.jpg", "resources/images/Sonia/IMG_3391.jpg"] 
+	}
+]
+}

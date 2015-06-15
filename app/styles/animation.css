@@ -1,0 +1,39 @@
+/*
+ * animations css stylesheet
+ */
+
+/* animate ngRepeat in phone listing */
+
+.item-container.ng-enter,
+.item-container.ng-leave,
+.item-container.ng-move {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
+
+.item-container.ng-enter,
+.item-container.ng-move {
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.item-container.ng-move.ng-move-active,
+.item-container.ng-enter.ng-enter-active {
+  opacity: 1;
+  width: 250px;
+}
+
+.item-container.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.item-container.ng-leave.ng-leave-active {
+  opacity: 0;
+  width: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

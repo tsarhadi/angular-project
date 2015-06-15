@@ -1,0 +1,26 @@
+    <div class="filter-header {{classNamePrefix}}-filter-header margin-top-5" ng-click="menuClick({className:classNamePrefix} );">
+    		<img ng-src="{{iconSrc}}" class="expand-collapse"/> {{label}}
+    </div>
+    		
+ 	<div class="filter-body {{classNamePrefix}}-filter-body ">
+ 		<div ng-repeat="item in filterArr track by filterArr[$index].label" class="filter-item">
+ 			<input type="checkbox"   ng-model="filterArr[$index].value" 
+ 					ng-change="filterValueChanged( {filter:filterArr,index:$index} )" 
+ 			/>&nbsp;{{ filterArr[$index].label }}
+ 		</div>
+ 	</div>
+
+<!-- 
+    <div class="filter-header {{classNamePrefix}}-filter-header margin-top-5" ng-click="menuClick({className:classNamePrefix} );">
+    		<img ng-src="{{iconSrc}}" class="expand-collapse"/> {{label}}
+    </div>
+    		
+ 	<div class="filter-body {{classNamePrefix}}-filter-body">
+ 		<div ng-repeat="item in filterArr track by filterCheckboxArr[$index]" class="filter-item">
+ 			<input type="checkbox"   ng-model="filterArr[$index]" 
+ 					ng-change="filterValueChanged( {filter:filterArr,index:$index} )" 
+ 			/>&nbsp;{{ filterCheckboxArr[$index] }}
+ 		</div>
+ 	</div>
+
+ -->

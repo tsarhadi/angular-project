@@ -1,0 +1,37 @@
+
+<div class='filter-container-wrapper full-size'>
+<div class='filter-container'>
+
+	<filter-menu class-name-prefix="color" label="Color" icon-src="menuIcon['color']"
+		filter-arr="colorFilter" 
+		menu-click="expandOrCollapse(className)"
+		filter-value-changed="filterByChanged(filter,index)" >
+	</filter-menu> 
+	<filter-menu class-name-prefix="category" label="Category" icon-src="menuIcon['category']"
+		filter-arr="categoryFilter" 
+		menu-click="expandOrCollapse(className)"
+		filter-value-changed="filterByChanged(filter,index)" >
+	</filter-menu> 
+	
+</div>
+</div>	
+
+<div class="list-container list-container-width">
+	<div class='order-by-filter'>
+		Sort by:
+		<select ng-model="filterByField">
+			<option ng-repeat="item in filterByOptions.options" value="{{item.value}}" ng-show="" >{{item.name}}</option>
+		</select>
+	</div>
+	
+	<div ng-repeat="shoes in data.list | filterBy: 'color' : colorFilter  | filterBy: 'category' : categoryFilter | orderBy: filterByField" class="item-container" >
+		<a class='details-link' href="#shoesDetails/{{shoes.id}}">
+			<img ng-src="{{shoes.photos[0]}}" class='thumbnail' ></img>
+		</a>	
+		<div class='brief-info' ">
+			<a class='details-link' href="#shoesDetails/{{shoes.id}}">{{shoes.name}}</a><br>
+			{{shoes.price | currency :"$"}}
+		</div>
+	</div>
+</div>
+

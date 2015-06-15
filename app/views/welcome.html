@@ -1,0 +1,20 @@
+<div class="full-size">
+	<div class='welcome-message dark-bg-reverse'>
+		<h2>Welcome to my little online store :)</h2>
+		<hr>
+		<br>
+		<h3>It is just a small demo application developed mainly using Angular JS and CSS, with a little bit of JQuery </h3>
+		<br>
+		<div class='welcome-box'>
+		<p>Please enter your name:<input ng-model="guest" type="text" class='input-text'/></p>
+		<input type='button' ng-click="enterSite();" ng-disabled="guest == ''" value=" Enter Site " class="input-button" >
+		</div>
+		<br>
+		<br>
+		<p>Images have all been got from <a href="http://www.belluccishoes.com.au" > bellucci shoes<a> web site for demo purposes only</p>
+	</div>
+	<div class='new-arrival'>
+		<p class='new-arrival'>New Arrivals</p>
+		<img ng-src="{{currentPhoto}}" class='new-arrival'>
+	</div>
+</div>

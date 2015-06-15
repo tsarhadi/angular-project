@@ -1,0 +1,9 @@
+{
+	"id" : "1", 
+	"name" : "Alicia", 
+	"price" : "127.5", 
+	"description" : "Very Comfy", 
+	"color" : "Blue", 
+	"category" : "Flat", 
+	"photos" : ["photo1.jpg", "photo2.jpg", "photo3.jpg"] 
+}

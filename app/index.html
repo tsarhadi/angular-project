@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="onlineStoreApp">
+<head>
+  <meta charset="utf-8">
+  <title>Online Store</title>
+ 
+  <link rel="stylesheet" href="styles/app.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  
+  <script src="scripts/app.js"></script>
+  <script src="scripts/animations/animations.js"></script>
+  <script src="scripts/controllers/controllers.js"></script>
+  <script src="scripts/filters/filters.js"></script>
+  <script src="scripts/services/services.js"></script>
+  <script src="scripts/directives/directives.js"></script>
+    
+</head>
+<body class="main-body" ng-controller='GuestNameCtrl'>
+	<div class='header-footer dark-bg' > 
+		<h1>AngularJS Online Store</h1>
+		<h3 ng-show="guestName() != ''" class='welcome-header' >Welcome {{guestName()}} :)</h3>
+		<h3 ng-show="guestName() == ''">Welcome dear visitor</h3>
+	</div>
+    <div ng-view class="full-size relative"></div>
+	<div class='header-footer dark-bg'> <h3>contact us</h3></div>
+</body> 

@@ -1,0 +1,21 @@
+<div class='main-image-container image-width '>
+	<div class='main-image-wrapper' >
+		<img ng-repeat="photo in selectedShoes.photos"  ng-src={{photo}} class='main-image' 
+			ng-class="{displayed:mainImageURL==photo}">
+	</div>
+</div>
+<div class='thumbnail-container'>
+		<a class='image-link' ng-repeat="photo in selectedShoes.photos" ng-click="setMainImageURL(photo)" >
+			<img ng-src={{photo}} class='small-thumbnail'></img>
+		</a>
+</div>
+<div class="details-container details-width dark-bg-reverse">
+	<div class='details'>
+		<p class='bold'><a class='link' href="#/shoesCatalogue"> Return to list</a></p>
+		<p class='bold'>{{selectedShoes.name}}</p>
+		<p class='bold'>{{selectedShoes.price | currency :'$'}}</p>
+		<p class='bold'>Available in sizes: 6, 7, 8, 9, 10</p>
+		<p class='bold'>{{selectedShoes.description}}</p>
+	</div>
+</div>
+<br>
