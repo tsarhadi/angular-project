@@ -1,5 +1,5 @@
 ## angular-project
-It is a small UI application developed mainly by angular JS and CSS with a little bit of JQuery.
+It is a small UI application (very basic online shoes store) developed mainly by angular JS and CSS with a little bit of JQuery.
 The application is preconfigured to install the Angular framework and a bunch of development and testing tools using 'bower' and 'npm' (node package manager).
 
 
