@@ -1,6 +1,11 @@
-## angular-project
+# angular-project
 It is a small UI application (very basic online shoes store) developed mainly by angular JS and CSS with a little bit of JQuery.
 The application is preconfigured to install the Angular framework and a bunch of development and testing tools using 'bower' and 'npm' (node package manager).
+
+### Notes
+* The color themes selected might not be the best ones from a web site design point of view but just an indication of how to use CSS classes in the application.
+* The header and footer might look too empty, but the idea was mainly to layout the HTML page to contain header, footer and content and more importantly keeping the layout when resizing the browser window.
+
 
 
 ## Getting Started
@@ -47,6 +52,9 @@ npm start
 
 Now browse to the app at `http://localhost:8000/app/index.html`.
 
+### @TODO list
+- [ ] add unit test
+- [ ] add end to end test
 
 
 [git]: http://git-scm.com/
