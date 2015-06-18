@@ -52,7 +52,7 @@ npm start
 
 Now browse to the app at `http://localhost:8000/app/index.html`.
 
-### @TODO list
+### TODO list
 - [ ] add unit test
 - [ ] add end to end test
 
