@@ -10,8 +10,6 @@ html, body, .full-size{
 	font-family: Arial, Helvetica, sans-serif;
 	width:100%;
 	height:100%;
-	//background-color:#D6E0EB;
-	//background-color:#EAEAEA;
 	background-color:#EDF1F6;
 }
 
@@ -20,9 +18,7 @@ div {
 } 
 
 .dark-bg{
-    //color:#EDF1F6;
     color:#336699;
-	//background-color:#6C91B5;
     background: -webkit-linear-gradient(top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Firefox 3.6 to 15 */
@@ -30,9 +26,7 @@ div {
 	
 }
 .dark-bg-reverse{
-    //color:#EDF1F6;
     color:#336699;
-	//background-color:#6C91B5;
     background: -webkit-linear-gradient(to top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(to top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(to top, rgba(108, 145, 181, 1), rgba(222, 231, 239,1)); /* For Firefox 3.6 to 15 */
@@ -54,12 +48,9 @@ div.filter-container-wrapper{
 	height:100%;
 }
 div.filter-container{
-	//border:1px solid rgba(51, 102, 153, 0.5);
-	//border-radius:10px;
 	width:200px;
 	height:100%;
 	position:absolute;
-	//padding:10px;
 	margin: 0px 10px 10px 10px;
 	background-color:#EDF1F6;
 	overflow-y:auto;
@@ -85,7 +76,6 @@ img.expand-collapse{
 .filter-header{
 	border:1px solid rgba(51, 102, 153, 0.5);
 	border-radius:10px;
-//	background-color:#336699;
 	color:#336699;
 	height:40px;
 	vertical-align:middle;
@@ -129,6 +119,7 @@ div.filter-item{
 }
 a.link{
 	cursor:pointer;
+
 }
 
 div.item-container{
@@ -142,6 +133,8 @@ img.thumbnail{
 	width:200px;
 	height:200px;
 	margin:5px;
+	border:1px solid #fff;
+
 }
 div.brief-info{
 	width:200px;
@@ -182,7 +175,7 @@ a.image-link{
 	cursor:pointer;
 	height:100%;
 }
-img.small-thumbnail:hover{
+img.small-thumbnail:hover, img.thumbnail:hover{
 	opacity:0.7;
 	border:1px solid rgba(51, 102, 153, 0.5);
 	border-radius:5px;
@@ -272,7 +265,7 @@ div.welcome-message{
 	top:0px;
 	padding:20px;
 	margin:0px 10px 10px 10px ;
-	overflow:scroll;
+	overflow:auto;
     width: -moz-calc(50% - 30px);
     width: -webkit-calc(50% - 30px);
     width: calc(50% - 30px);
@@ -290,7 +283,7 @@ div.new-arrival{
 	margin:0px 10px 10px 10px ;
 	text-align:center;
 	background-color:#fff;
-	overflow:scroll;
+	overflow:auto;
     width: 50%;
 }
 p.new-arrival{
