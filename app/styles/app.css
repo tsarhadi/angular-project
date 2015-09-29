@@ -62,7 +62,7 @@ div.filter-container{
 	//padding:10px;
 	margin: 0px 10px 10px 10px;
 	background-color:#EDF1F6;
-	overflow-y:scroll;
+	overflow-y:auto;
 }
 div.list-container{
 	border:1px solid rgba(51, 102, 153, 0.5);
@@ -72,7 +72,7 @@ div.list-container{
 	position:absolute;
 	height:100%;
 	float:left;
-	overflow-y:scroll;
+	overflow-y:auto;
 	background-color:#fff;
 }
 img.expand-collapse{
@@ -197,7 +197,7 @@ div.details-container{
 	padding:20px;
 	margin:0px 10px 10px 10px ;
 	width:300px;
-	overflow:scroll;
+	overflow:auto;
 }
 
 div.main-image-container{
@@ -212,13 +212,13 @@ div.main-image-container{
 	margin:0px 10px 10px 10px ;
 	text-align:center;
 	background-color:#fff;
-	overflow:scroll;
+	overflow:auto;
 }
 div.main-image-wrapper{
 	width:600px;
 	height:600px;
 	position:relative;
-	overflow-x:scroll;
+	overflow-x:auto;
 	overflow-y:hidden;
 }
 img.main-image{
@@ -239,7 +239,7 @@ img.main-image:first-child{
 	right:10px;
 	width:200px;
 	height:100%;
-	overflow-y:scroll;
+	overflow-y:auto;
 	background-color:#fff;
 }
 
